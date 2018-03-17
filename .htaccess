@@ -1,0 +1,7 @@
+RewriteEngine on
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.servitrans-col.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^servitrans-col.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.servitrans-col.com$
+RewriteCond %{REQUEST_URI} !/frontend/web/
+RewriteRule (.*) /frontend/web/$1 [L]
