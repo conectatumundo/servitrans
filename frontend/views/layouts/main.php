@@ -42,7 +42,7 @@ AppAssetThemeTansfer::register($this);
             <div class="wrap">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="/" title="<?= Yii::$app->id ?>"><img src="<?= Yii::getAlias('@web') ?>/images/transfers.jpg" alt="<?= Yii::$app->id ?>" /></a>
+                    <a href="/" title="<?= Yii::$app->id ?>"><img src="<?= Yii::getAlias('@web') ?>/images/servitrans.png" alt="<?= Yii::$app->id ?>" /></a>
                 </div>
                 <!-- //Logo -->
                 <!-- Main Nav -->
@@ -74,21 +74,21 @@ AppAssetThemeTansfer::register($this);
             <div class="row">
                 <!-- Column -->
                 <article class="one-half">
-                    <h6>About us</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                    <h6>Sobre nosotros.</h6>
+                    <p>Somos una empresa de transporte terrestre con gran experiencia y calidad de servicio totalmente habilitada por el ministerio y la superintendencia de puertos y transporte, contamos con personal idóneo y tecnología de punta necesarias para ejecutar o emprender la diversidad de negocios en el mercado.</p>
                 </article>
                 <!-- //Column -->
                 
                 <!-- Column -->
                 <article class="one-fourth">
-                    <h6>Need help?</h6>
-                    <p>Contact us via phone or email:</p>
+                    <h6>Necesitas ayuda?</h6>
+                    <p>Contactanos:</p>
                     <p class="contact-data"><span class="icon icon-themeenergy_call"></span> +1 555 555 555</p>
-                    <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:help@transfers.com">help@transfers.com</a></p>
+                    <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:hola@servitrans.com">hola@servitrans.com</a></p>
                 </article>
                 <!-- //Column -->
                 
-                <!-- Column -->
+                <!--
                 <article class="one-fourth">
                     <h6>Follow us</h6>
                     <ul class="social">
@@ -100,12 +100,12 @@ AppAssetThemeTansfer::register($this);
                         <li><a href="#" title="vimeo"><i class="fa fa-fw fa-vimeo"></i></a></li>
                     </ul>
                 </article>
-                <!-- //Column -->
+                Column -->
             </div>
             
             <div class="copy">
-                <p>Copyright 2016, Themeenergy. All rights reserved. </p>
-                
+                <p>Copyright 2018, Todos los derechos son reservados. </p>
+                <!--
                 <nav role="navigation" class="foot-nav">
                     <ul>
                         <li><a href="#" title="Home">Home</a></li>
@@ -116,7 +116,7 @@ AppAssetThemeTansfer::register($this);
                         <li><a href="#" title="Help">Help</a></li>
                         <li><a href="#" title="For partners">For partners</a></li>
                     </ul>
-                </nav>
+                </nav>-->
             </div>
         </div>
     </footer>
