@@ -29,9 +29,8 @@ $this->params['breadcrumbs'][] = $this->title;
 				</div>
 				<!--- //Content -->
 				
-				<!--- Sidebar -->
+				<!--- Sidebar
 				<aside class="one-fourth sidebar right offset">
-					<!-- Widget -->
 					<div class="widget">
 						<h4>Why book with us?</h4>
 						<div class="textwidget">
@@ -43,15 +42,12 @@ $this->params['breadcrumbs'][] = $this->title;
 							<p>Lorem ipsum dolor sit amet,  do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
 						</div>
 					</div>
-					<!-- //Widget -->
 					
-					<!-- Widget -->
 					<div class="widget">
 						<h4>Advertisment</h4>
 						<a href="#"><img src="images/uploads/advertisment.jpg" alt="" /></a>
 					</div>
-					<!-- //Widget -->
 				</aside>
-				<!--- //Sidebar -->
+				//Sidebar -->
 			</div>
 		</div>
