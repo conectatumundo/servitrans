@@ -7,10 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAssetThemeTansfer;
+use frontend\assets\AppAssetThemeservitrans;
 use common\widgets\Alert;
 
-AppAssetThemeTansfer::register($this);
+AppAssetThemeservitrans::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ AppAssetThemeTansfer::register($this);
             <div class="wrap">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="index.html" title="Transfers"><img src="images/transfers.jpg" alt="Transfers" /></a>
+                    <a href="index.html" title="servitrans"><img src="images/servitrans.jpg" alt="servitrans" /></a>
                 </div>
                 <!-- //Logo -->
                 
@@ -134,7 +134,7 @@ AppAssetThemeTansfer::register($this);
                     <h6>Need help?</h6>
                     <p>Contact us via phone or email:</p>
                     <p class="contact-data"><span class="icon icon-themeenergy_call"></span> +1 555 555 555</p>
-                    <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:help@transfers.com">help@transfers.com</a></p>
+                    <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:help@servitrans.com">help@servitrans.com</a></p>
                 </article>
                 <!-- //Column -->
                 
