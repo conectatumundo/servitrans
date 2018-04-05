@@ -12,7 +12,7 @@ class AppAssetThemeTansfer extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/theme-pink.css',
+        'css/theme-dblue.css',
         'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css',
         'css/jquery-ui.theme.css',
         'css/style.css',
