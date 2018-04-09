@@ -7,10 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAssetThemeservitrans;
+use frontend\assets\AppAssetThemeTansfer;
 use common\widgets\Alert;
 
-AppAssetThemeservitrans::register($this);
+AppAssetThemeTansfer::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -42,11 +42,7 @@ AppAssetThemeservitrans::register($this);
             <div class="wrap">
                 <!-- Logo -->
                 <div class="logo">
-<<<<<<< HEAD
-                    <a href="index.html" title="servitrans"><img src="images/servitrans.jpg" alt="servitrans" /></a>
-=======
                     <a href="/" title="<?= Yii::$app->id ?>"><img src="<?= Yii::getAlias('@web') ?>/images/servitrans.png" alt="<?= Yii::$app->id ?>" /></a>
->>>>>>> 4f27c75eac94b93a3fd8b11111a02aba2d06557e
                 </div>
                 <!-- //Logo -->
                 <!-- Main Nav -->
@@ -88,11 +84,7 @@ AppAssetThemeservitrans::register($this);
                     <h6>Necesitas ayuda?</h6>
                     <p>Contactanos:</p>
                     <p class="contact-data"><span class="icon icon-themeenergy_call"></span> +1 555 555 555</p>
-<<<<<<< HEAD
-                    <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:help@servitrans.com">help@servitrans.com</a></p>
-=======
                     <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:hola@servitrans.com">hola@servitrans.com</a></p>
->>>>>>> 4f27c75eac94b93a3fd8b11111a02aba2d06557e
                 </article>
                 <!-- //Column -->
                 
