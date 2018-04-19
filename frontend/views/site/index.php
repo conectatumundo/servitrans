@@ -7,7 +7,7 @@ $this->title = Yii::$app->id;
 ?>
 <div class="site-index">
     <!-- Intro -->
-    <div class="intro">
+    <div class="intro" style="background: url(<?= Yii::getAlias('@web') ?>/images/uploads/keyvisual.png" ?>) ">
         <div class="wrap">
             <div class="textwidget">
                 <h1 class="wow fadeInDown">Servitrans</h1>
