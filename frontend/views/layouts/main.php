@@ -23,7 +23,16 @@ AppAssetThemeTansfer::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700">
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117849123-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117849123-1');
+    </script>
+
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -83,7 +92,7 @@ AppAssetThemeTansfer::register($this);
                 <article class="one-fourth">
                     <h6>Necesitas ayuda?</h6>
                     <p>Contactanos:</p>
-                    <p class="contact-data"><span class="icon icon-themeenergy_call"></span> +1 555 555 555</p>
+                    <p class="contact-data"><span class="icon icon-themeenergy_call"></span> +57 301 352 0666</p>
                     <p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:hola@servitrans.com">hola@servitrans.com</a></p>
                 </article>
                 <!-- //Column -->
